@@ -13,8 +13,14 @@ git의 3가지 공간
  * stage area: working directory에서 변경(작업)이 일어난 공간.
 
 commit을 하게 되면 stage area의 파일이 repository에 복사가 된다.
- -> 복사된 버전은 바로 위버전을 부모 key를 저장한다.
+ -> 복사된 버전은 바로 이전 버전을 부모 key를 저장한다.
  -> 부모 Key를 이용하여 해당 버전으로 되돌릴 수 있다.
  
+ MASTER는 마지막 commit을 가리킨다.
  
  HEAD는 MASTER를 가리키고 MASTER는 마지막으로 Commit한 버전을 가리킨다.
+  - HEAD는 나의 working copy가 어느 버전에서 유래했는가를 알려준다.
+  - Project의 상태를 알려주는 역할. Project 시작 시 HEAD의 위치를 파악한다.
+  
+check out
+  - git에게 HEAD를 원하는 버전을 보게끔 하는 명령어.
