@@ -31,4 +31,5 @@ check out
 commit을 삭제하고 싶다면 MASTER를 원하는 버전을 바라보게끔 설정.
   - reset은 MASTER를 움직인다.
   - $ git reset C1: Master를 C1으로 초기화한다.(옮긴다)
-  
+  - reset을 통해 원하는 버전으로 이동한다. 
+  - $ git reset --hard 'commit key' 를 하면 강력하게 돌린다.(강제 덮어쓰기)
