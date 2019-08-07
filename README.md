@@ -26,3 +26,4 @@ commit을 하게 되면 stage area의 파일이 repository에 복사가 된다.<
 check out
   - git에게 HEAD를 원하는 버전을 보게끔 하는 명령어.
   - working directory가 HEAD가 보는 버전 상태로 변경된다.
+  - stage area에 올라가지 않은 파일이 있다면 check out이 되지 않는다.
