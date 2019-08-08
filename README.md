@@ -1,10 +1,10 @@
-#20190808<br>
+# 20190808<br>
 
 **자식 commit id는 부모의 commit id를 항상 참조한다.<br>**
 **commit은 commit이 동작한 시점의 stage area에 대한 스냅샷이다.**
 
 
-#20190807<br>
+# 20190807<br>
 
 `Sourcetree 설치: https://www.sourcetreeapp.com/`
 
